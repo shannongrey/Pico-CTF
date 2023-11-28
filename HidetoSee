@@ -1,0 +1,15 @@
+HideToSee
+Category: Cryptography
+
+Description
+How about some hide and seek heh?
+
+Look at this image here.
+
+The image is named atbash.jpg.
+
+Extract hidden data with steghide (no passphrase): steghide extract -sf atbash.jpg
+wrote extracted data to "encrypted.txt"
+cat encrypted.txt
+The name of the file atbash.jpg - is a hint to encoding algorithm being used for flag
+I used this cipher https://www.dcode.fr/atbash-cipher to decode the text to receive the decoded flag
